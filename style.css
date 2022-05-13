@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar {
+  z-index: 1;
+  top: 0;
+  padding-top: 0.8rem;
+}
+
+.navbar .sitename {
+  margin-left: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.navbar a:hover {
+  color: #dc3545;
+}
+
+.container0 img {
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+}
+
+.maintittles {
+  z-index: 1;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+.maintittles button {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.maintittles button:hover {
+  background-color: white;
+  color: black !important;
+}
+
+.maintittles .tittle2 {
+  font-family: sans-serif;
+  margin-top: 4rem;
+  size: 8rem;
+}
+
+main .container1 {
+  margin-top: -7rem;
+}
+
+main .container1 .page1 {
+  width: 50%;
+  height: 40vh;
+  padding: 2rem;
+  z-index: 1;
+}
+
+main .container1 .page1 button:hover {
+  background-color: white;
+  color: black !important;
+}
+
+main .container2 {
+  margin-top: 5rem !important;
+}
+
+main .container2 img {
+  width: 40rem;
+  height: 40rem;
+}
+
+main .container2 .maintittles2 {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+main .container2 .maintittles2 button {
+  width: 10rem;
+  height: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+main .container3 {
+  height: 20rem;
+  margin-top: 3rem;
+}
+
+main .container4 .area2 .area4 {
+  width: 40rem;
+  height: 20rem;
+}
+
+main .container4 .area2 .area4 img {
+  height: 12rem;
+}
+
+main .container4 .area2 .area4 .area3 {
+  width: 5rem;
+  height: 4rem;
+  left: 70%;
+  top: -5%;
+}
+
+main .container5 {
+  background-image: url("img/bg.jpg");
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+  width: 100%;
+  height: 25rem;
+}
+
+main .container5 input {
+  width: 20rem !important;
+  height: 4rem;
+}
+
+main .area5 {
+  width: 100%;
+  margin-top: -20rem;
+}
+
+main .area6 {
+  width: 100%;
+  width: 35rem;
+  height: 3rem;
+  margin-top: -8rem;
+  margin-left: 31rem;
+}
+
+main .area6 button {
+  height: 3rem;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 6px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
